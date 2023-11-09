@@ -1,5 +1,5 @@
-# UofT Data Analytics BootCamp, Project 2 by Group 8.
-# by Mahsa Nafei, Keyana Pregent, Allan Mathews and Yargi Kilinc.
+# UofT Data Analytics BootCamp, Project 2 by Group 8
+# by Mahsa Nafei, Keyana Pregent, Allan Mathews and Yargi Kilinc
 
 This is an ETL project, practicing building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, four CSV files been created and the CSV files were used to create an ERD and a table schema. Finally, the CSV files were uploaded into a Postgres database. See below for more details.
 
