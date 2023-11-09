@@ -52,7 +52,7 @@ The instructions for this mini project are divided into the following subsection
 4. The subcategory DataFrame was exported as `subcategory.csv` and saved.
 
 
-#### Create the Campaign DataFrame
+#### Creating the Campaign DataFrame
 
 1. The `crowdfunding.xlsx` Excel data was extracted and transformed to create a campaign DataFrame that has the following columns:
 
@@ -79,7 +79,7 @@ The instructions for this mini project are divided into the following subsection
 2. The campaign DataFrame was exported as `campaign.csv` and saved.
 
 
-#### Create the Contacts DataFrame
+#### Creating the Contacts DataFrame
 
 1. Python dictionary methods were used for extracting and transforming the data from the `contacts.xlsx` Excel data:
 
@@ -129,7 +129,7 @@ The instructions for this mini project are divided into the following subsection
 8. Verified that each table has the correct data by running a `SELECT` statement for each.
 
 
-#### Information
+#### Methods
 
 * To split each "category & sub-category" column value into "category" and "subcategory" column values, `df[["new_column1","new_column2"]] = df["column"].str.split()` was used, making sure that the correct parameters were passed to the `split()` function.
 
