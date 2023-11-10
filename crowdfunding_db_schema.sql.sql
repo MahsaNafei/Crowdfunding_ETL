@@ -1,5 +1,16 @@
+--Creating DB
+CREATE DATABASE crowdfunding_db;
+
+--drop tables if exist
+drop table if exists contacts;
+drop table if exists category;
+drop table if exists subcategory;
+drop table if exists campaign
+
+--Altering datestyle for data dates
 ALTER DATABASE "crowdfunding_db" SET datestyle TO "ISO, MDY";
 
+--Creating Table schemas 
 CREATE TABLE category(
  category_id VARCHAR PRIMARY KEY,
  category VARCHAR
@@ -19,7 +30,6 @@ CREATE TABLE subcategory (
   subcategory VARCHAR
 );
 
--- Create a new table
 CREATE TABLE campaign (
   cf_id INTEGER,
   contact_id INTEGER,
@@ -42,6 +52,7 @@ CREATE TABLE campaign (
 
 );
 
+--Checking if data improted correctly 
 SELECT * FROM category; 
 SELECT * FROM contacts; 
 SELECT * FROM subcategory;
