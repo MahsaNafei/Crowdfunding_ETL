@@ -159,4 +159,4 @@ ETL photo taken from and all rights belongs to: DataChannel.co (https://www.data
 
 https://learnpythonwithmaulik.home.blog/compare-pandas-columns-compare-2-columns/pushing-data-onto-postgresql-database-using-pandas-library-functionto-sql/
 
-
+https://www.geeksforgeeks.org/python-postgresql-create-database/
